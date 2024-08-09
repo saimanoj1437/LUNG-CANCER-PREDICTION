@@ -5,6 +5,7 @@ import streamlit as st
 
 # Set page configuration
 st.set_page_config(page_title="Lung Cancer Prediction")
+st.title("Lung Cancer Prediction")
 
 # Load the model and scaler
 loaded_model = pickle.load(open('model.pkl', 'rb'))
